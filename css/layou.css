@@ -1,0 +1,56 @@
+body{
+	background: violet;
+}
+.header{
+	background: white;
+	text-align: center;
+	padding: 13px;
+	color: purple;
+}
+.topnav{
+	overflow: hidden;
+	background: blueviolet;		
+}
+.topnav a{
+	text-decoration: none;
+	color: white;
+	padding: 13px;
+	float: left;
+	display: block;
+}
+.topnav a:hover{
+	background: green;
+}
+.leftcolumn{
+	float: left;
+	width: 69%;
+}
+.rightcolumn{
+	float: left;
+	width: 29%;
+}
+.card{
+	background: white;
+	padding: 20px;
+	margin: 10px;
+}
+/* clear float */
+.row{
+	content: "";
+	display: table;
+	clear: both;
+}
+*{
+box-sizing: border-box;
+}
+.fakeimg{
+	background: gray;
+	padding: 10px;
+	width: 100%;
+}
+.footer{
+	background: white;
+	text-align: center;
+	padding: 20px;
+	color: purple;
+}
